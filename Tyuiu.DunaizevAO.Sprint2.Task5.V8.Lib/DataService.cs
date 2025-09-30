@@ -50,7 +50,7 @@ namespace Tyuiu.DunaizevAO.Sprint2.Task5.V8.Lib
             }
             string mes = Convert.ToString(prochM);
             string chis = Convert.ToString(prochN);
-            string res = mes + chis;
+            string res = chis + ".0" + mes;
             return res;
         }
     }
