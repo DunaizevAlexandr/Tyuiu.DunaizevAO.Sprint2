@@ -54,7 +54,7 @@ namespace Tyuiu.DunaizevAO.Sprint2.Task6.V12.Lib
             string god = Convert.ToString(proshG);
             string mes = Convert.ToString(proshM);
             string chis = Convert.ToString(proshN);
-            string res = chis + ".0" + mes + "." + god;
+            string res = "0" + chis + ".0" + mes + "." + god;
             return res;
 
         }
